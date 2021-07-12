@@ -1,0 +1,17 @@
+{
+  "name": "lead/lead-handler",
+  "require": {
+    "php": "^8.0",
+    "vladimir163/lead-generator": "dev-master",
+    "spatie/async": "^1.5",
+    "symfony/console": "^5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "LeadProcessing\\": "src/"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^5.3"
+  }
+}
