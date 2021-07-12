@@ -4,7 +4,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 $startTime = microtime(true);
 
-$handler    = new \LeadProcessing\LeadHandler(2);
+$handler    = new \LeadHandler\LeadHandler(2);
 $status     = $handler->run(10000);
 
 $finishTime = microtime(true) - $startTime;

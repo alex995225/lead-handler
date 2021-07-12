@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace LeadProcessing;
+namespace LeadHandler;
 
 use LeadGenerator\Generator;
 use LeadGenerator\Lead;
-use LeadProcessing\Contracts\LeadHandlerInterface;
+use LeadHandler\Contracts\LeadHandlerInterface;
 use Spatie\Async\Pool;
 use Spatie\Async\PoolStatus;
 use Symfony\Component\Console\Helper\ProgressBar;

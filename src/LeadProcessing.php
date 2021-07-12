@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace LeadProcessing;
+namespace LeadHandler;
 
 use LeadGenerator\Lead;
-use LeadProcessing\Contracts\LeadProcessingInterface;
+use LeadHandler\Contracts\LeadProcessingInterface;
 
 class LeadProcessing implements LeadProcessingInterface
 {

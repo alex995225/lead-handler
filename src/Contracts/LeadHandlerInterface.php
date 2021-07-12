@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace LeadProcessing\Contracts;
+namespace LeadHandler\Contracts;
 
 use Spatie\Async\PoolStatus;
 
