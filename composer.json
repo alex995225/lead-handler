@@ -1,7 +1,7 @@
 {
   "name": "lead/lead-handler",
   "require": {
-    "php": "^8.0",
+    "php": "^7.4|^8.0",
     "vladimir163/lead-generator": "dev-master",
     "spatie/async": "^1.5",
     "symfony/console": "^5.3"

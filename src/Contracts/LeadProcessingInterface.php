@@ -6,6 +6,6 @@ use LeadGenerator\Lead;
 
 interface LeadProcessingInterface
 {
-    public static function factory(): static;
+    public static function factory(): self;
     public function process(Lead $lead): void;
 }

@@ -17,12 +17,12 @@ class LeadProcessing implements LeadProcessingInterface
         );
     }
 
-    public static function factory(): static
+    public static function factory(): self
     {
         return new static();
     }
 
-    private function toFile(string $line): static
+    private function toFile(string $line): self
     {
         file_put_contents($this->filePath(), $line, FILE_APPEND);
         return $this;
