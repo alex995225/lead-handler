@@ -42,8 +42,7 @@ class LeadHandler implements LeadHandlerInterface
     {
         $this->pool->add(function () use ($lead) {
                 LeadProcessing::factory()->process($lead);
-            })
-            ->catch(function (\Throwable $exception) {});
+            })->catch(function (\Throwable $exception) {});
 
         $this->progress->advance();
 
