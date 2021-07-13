@@ -1,4 +1,4 @@
-FROM php:8.0.8-cli-alpine
+FROM php:7.4-cli
 
 RUN docker-php-ext-configure pcntl --enable-pcntl \
     && docker-php-ext-install pcntl
